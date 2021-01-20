@@ -1,0 +1,4 @@
+[placeholders]
+foo = {type = "string", prompt = "foo?", choices = ["hello", "world"]}
+bar = {type = "string", prompt = "bar?", choices = ["zoo", "tar"], default = "tar"}
+use-serde = { type = "bool", prompt = "use serde?" }
